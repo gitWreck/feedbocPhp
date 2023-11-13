@@ -28,6 +28,7 @@ while($row = $result -> fetch_array(MYSQLI_ASSOC))
     'status' => $row["status"],
     'sub_status' => $row["sub_status"],
     'date_posted' => $row["date_posted"],
+    'ay_range' => $row["ay_range"],
     'first_name' => empty($rowUser["first_name"]) ? "Na" : $rowUser["first_name"],
     'last_name' =>  empty($rowUser["last_name"]) ? "Na" : $rowUser["last_name"],
     );

@@ -7,8 +7,8 @@ $response = array();
 $email = $_POST['email'];
 $user_password = $_POST['password'];
 
-// $email = 'arnoldcelis85@gmail.com';
-// $user_password = "123456";
+$email = 'arnoldcelis85@gmail.com';
+$user_password = "123456";
 
 $response = array();
 
